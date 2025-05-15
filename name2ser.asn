@@ -1,0 +1,8 @@
+FilenameToSerial DEFINITIONS ::= BEGIN
+
+	NameSerPair ::= SEQUENCE {
+		filename UTF8String,
+		serial INTEGER
+	}
+
+END
